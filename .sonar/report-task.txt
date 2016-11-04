@@ -1,0 +1,5 @@
+projectKey=ull.herramientas.demo-opennlp
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/ull.herramientas.demo-opennlp
+ceTaskId=AVguqBjDks37lYbJ4v3w
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVguqBjDks37lYbJ4v3w
