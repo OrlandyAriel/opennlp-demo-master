@@ -1,20 +1,8 @@
-Code to accompany Phil's June 2015 Tri-JUG presentation
-on OpenNLP.
+# Práctica de LDH
+## Orlandy Ariel Sánchez A.
 
-# Notes:
+En esta práctica partimos del proyecto OpenNLP-Demo haciendo un fork y trabajando posteriormente con sus clases, viendo su funcionamiento.
 
-TBD...
+La clase en concreto utilizada en las pruebas es TokenizerMain que se encuentra en el paquete org.fogbeam.example.opennlp
 
-# Links:
-
-## The OpenNLP Manual
-* http://opennlp.apache.org/documentation/1.5.3/manual/opennlp.html
-
-## Where to find POS Tagger training data in TreeBank II format
-* http://stackoverflow.com/questions/8949517/is-there-any-treebank-for-free
-
-## A source for Chunker training data
-* http://www.cnts.ua.ac.be/conll2000/chunking/
-
-## A good source for general English text to use for training tasks
-http://www.gutenberg.org
+En esta clase lo que cambiamos su funcionamiento dado que esta sólo leía un string construido dentro del mismo programa, la modificación que se hizo es dado directorio este puede leer todos los ficheros que se encuentre en él y lo separe en token.
